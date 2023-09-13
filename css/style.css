@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+body{
+    font-family: Noto Sans;
+
+    
+}
+/* intro */
+.title{
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.title_w{
+    color: #FBFAF7;
+}
+
+.text{
+    font-style: 18px;
+    font-weight: 400;
+
+}
+
+.text_w{
+    color: #FBFAF7;
+}
+
+.intro{
+    background-color: #163A24;
+}
+
+.intro__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro__title{
+    margin-bottom: 18px;
+}
+
+.intro__wrap{
+    display: flex;
+}
+
+.intro__pic{
+    display: flex;
+    justify-content: right;
+}
+
+/* HR */
+
+.hr__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+}
+
+/* ty */
+
+/* HR */
+
+.ty__block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ty__texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 375px;
+}
+
+
+
+/* HQ */
+
+.hq{
+    background-color: #163A24;
+    padding: 20px 0 120px;
+}
+
+.hq__title{
+    text-align: center;
+    margin-bottom: 74px;
+}
+
+.hq__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hq__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hq__text{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* header */
+
+.header{
+    background-color: #163A24;
+    padding: 20px 0;
+
+}
+
+.header__wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__item a{
+    color: #FBFAF7;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.header__item{
+    margin-left: 24px;
+}
+
+.header__item_g{
+    background-color: #198C36;
+    padding: 15px 25px;
+    border-radius: 48px;
+}
+
